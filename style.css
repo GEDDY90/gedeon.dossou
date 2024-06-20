@@ -3,14 +3,14 @@ body {
     font-family: 'Roboto', Arial, sans-serif; /* Choix d'une police plus moderne */
     line-height: 1.6;
     background-color: #f0f0f0;
-    margin: 0 50px; /* Marges de 50px à gauche et à droite */
+    margin: 0 250px; /* Marges de 50px à gauche et à droite */
     padding: 0;
-    color: #333; /* Couleur de texte principale */
+    color: #110707; /* Couleur de texte principale */
 }
 
 header {
     background-color: #007bff; /* Couleur de fond de l'en-tête */
-    color: white;
+    color: rgb(20, 19, 19);
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -34,24 +34,34 @@ header {
 
 .contact-info {
     text-align: right;
+    color: #080707; /* Couleur du texte */
     font-size: 14px; /* Taille de police légèrement réduite */
 }
 
 .main-content {
     padding: 20px;
 }
-
-.section {
-    margin-bottom: 40px; /* Marge inférieure augmentée pour plus d'espace entre les sections */
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 20px;
+h1 {
+    text-emphasis-color: rgb(17, 15, 15);
 }
 
 .section:last-child {
     border-bottom: none;
     padding-bottom: 0;
 }
-
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.section h2 {
+    font-size: 24px;
+    color: #007bff; /* Couleur de titre accentuée */
+    margin-bottom: 15px; /* Marge inférieure augmentée pour plus d'espace */
+}
 .section h2 {
     font-size: 24px;
     color: #007bff; /* Couleur de titre accentuée */
@@ -99,4 +109,5 @@ header {
     .section {
         margin-bottom: 30px;
     }
+
 }
